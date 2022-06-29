@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
  <body>
-  <form action="twitter.php" method="post">
+  const params = url.searchParams;
+  // パラメータから「username」を取得
+  const id = params.get("id");
+  const url = params.get("url");
+  
+  <form action=url method="get">
   </form>
  </body>
